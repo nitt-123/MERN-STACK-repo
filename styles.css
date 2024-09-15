@@ -1,0 +1,39 @@
+*{
+    font-size: medium;
+
+}
+.heads{
+    background-color: khaki;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+}
+.h2{
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: groove;
+}
+.h4{
+    background-color: indianred;
+    border-style: dashed;
+    font-weight: 200px;
+}
+.ari{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: black;
+    border-style: dotted;
+} 
+.footer{
+    background-color: chartreuse;
+    font-family: monospace;
+    border-style: dashed;
+    border-color: blue;
+}
+#tt{
+    background-color: aqua;
+    border-radius: 0cap;
+    border-color: blue;
+    border-style:dashed
+
+}
