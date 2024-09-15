@@ -1,0 +1,30 @@
+*{
+    font-size: 34px;
+}
+h1{
+    color: blue;
+}
+h1{
+    font-size: 34px;
+}
+/*added the comment in css files
+*/
+/*used the class selector for iit class*/
+.iit{
+    color:aqua;
+}
+/*used the id selector*/
+#tit{
+    font-size: 34px;
+    color: black;
+}
+/*using the element selector for the element in the iit class div*/
+h4{
+    color:indigo;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*defined the colour for both the divs with group selector*/
+#first , #second {
+    color: pink;
+}
