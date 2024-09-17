@@ -1,0 +1,16 @@
+.first{
+    background-color: rgba(255,0,0, 0.89);
+    font-family: 'Courier New', Courier, monospace;
+    border-style: dashed;
+}
+#class1{
+    background-color: rgba(240, 166, 237, 0.89); 
+    border-style: dashed;
+}
+.second{
+    background-color: rgb(181, 148, 213);
+    color: red;
+    background-image: url(google.png);
+    
+    
+}
