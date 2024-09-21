@@ -1,0 +1,20 @@
+.section1{
+    height: 200px; 
+    width: 200px;
+    background-color: khaki;
+}
+.slection2{
+  height: 200px;
+  width: 200px;
+  background-color: tomato;
+}
+#post{
+    background-color: aqua;
+    margin: 100px;
+    height: 100px;
+    width: 100px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 1000px;
+
+}
