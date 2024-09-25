@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.m2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    color: bisque;
+    font-size: 25px;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: 10px;
+}
+
+.madras {
+    margin: 5px;
+    padding: 5px;
+    background-color: tomato;
+    border: solid 5px black;
+    width: 100vw;  /* Changed to 100% of viewport width */
+    height: 20vh;   /* Keeping height at 20% of viewport height */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bombay, .kanpur, .kharagpur {
+    margin: 2px;
+    padding: 2px;
+    background-color: aqua;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+/* Flex properties */
+.bombay {
+    flex-grow: 0;  /* This element will grow to take available space */
+    flex-shrink: 0;  /* Won't shrink */
+}
+
+.kanpur {
+    flex-grow: 0;  /* Won't grow */
+    flex-shrink: 0;  /* Will shrink */
+}
+
+.kharagpur {
+    flex-grow: 1;  /* This element will also grow */
+    flex-shrink: 1;  /* This element will shrink if needed */
+}
